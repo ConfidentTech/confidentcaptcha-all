@@ -1,0 +1,9 @@
+# This is a list of public repositories for code that works with Confident CAPTCHA.
+# Format is:
+# local path, repository type, read-only repository, read-write repository
+languages/dotnet, git, git://github.com/ConfidentTech/confidentcaptcha-dotnet.git, git@github.com:ConfidentTech/confidentcaptcha-dotnet.git
+languages/php, git, git://github.com/ConfidentTech/confidentcaptcha-php.git, git@github.com:ConfidentTech/confidentcaptcha-php.git
+languages/python, git, git://github.com/ConfidentTech/confidentcaptcha-python.git, git@github.com:ConfidentTech/confidentcaptcha-python.git
+frameworks/drupal, git, git://github.com/switchyard/confidentcaptcha.git, git@github.com:switchyard/confidentcaptcha.git
+frameworks/joomla, git, git://github.com/snellcode/Confident-CAPTCHA---Joomla--System-Plugin.git, git@github.com:snellcode/Confident-CAPTCHA---Joomla--System-Plugin.git
+frameworks/wordpress, git, git://github.com/mrdoornbos/wpconfidentcaptcha.git, git@github.com:mrdoornbos/wpconfidentcaptcha.git

@@ -1,0 +1,9 @@
+# Projects where you have commit access (so download the read-write version)
+# Copy this to my_projects.txt, and uncomment the ones where you have access
+#
+# frameworks/drupal
+# frameworks/joomla
+# frameworks/wordpress
+# languages/dotnet
+# languages/php
+# languages/python
