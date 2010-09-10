@@ -40,7 +40,7 @@ fi
 
 # Get clone command
 if [ $REPO_TYPE == 'git' ]; then
-    CMD="cd $PROJECT && git pull"
+    CMD="git pull"
 else
     echo "Unknown repository type '$REPO_TYPE'"
     exit 1
@@ -48,6 +48,14 @@ fi
 
 # Clone it
 echo "Updating $PROJECT"
-echo $CMD
+cd $PROJECT
+if [ $? != 0 ]; then
+  echo "Can't cd $PROJECT"
+  exit 1
+fi
 $CMD
-
+if [ $? != 0 ]; then
+  echo "Error running $CMD"
+  exit 1
+fi
+cd -
